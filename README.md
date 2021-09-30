@@ -19,10 +19,12 @@ yarn add find-my-location
 ## Usage
 
 ```js
-import fml from 'find-my-location';
+import fml from "find-my-location";
+// or if you don't use ES6 import:
+// const fml = require("find-my-location").default;
 
 const dummy = async () => {
-  const location = await fml('112.69.120.199');
+  const location = await fml("112.69.120.199");
 
   console.log(location);
 };
@@ -32,7 +34,7 @@ dummy();
 /*
   The response will be:
   {
-    ip: '112.69.120.199',
+    ip: "112.69.120.199",
     country_code: "JP",
     country_name: "Japan",
     region_code: "27",
