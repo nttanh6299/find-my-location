@@ -1,6 +1,6 @@
 {
   "name": "find-my-location",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Find user location from their ip",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
